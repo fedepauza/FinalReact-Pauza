@@ -1,0 +1,101 @@
+
+
+.cardContainer {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 235px;
+    height: 380px;
+    border-radius: 10px;
+    background-color: #bbc796c7;
+}
+
+.cardImg {
+    width: 180px;
+    border-radius: 10px;
+}
+
+.cardTitle {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px ;
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+.productPrice {
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.containerbtns {
+    display: flex;
+    width: 200px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btnPlusLess {
+    display: flex;
+    background-color: #678F54;
+    justify-content: space-around;
+    align-items: center;
+    width: 100px;
+    height: 26px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.less {
+    font-size: 20px;
+    background: none;
+    cursor: pointer;
+    border: none;
+    width: 20px;
+    color: white;
+}
+
+.plus {
+    font-size: 20px;
+    background: none;
+    cursor: pointer;
+    border: none;
+    width: 20px;
+    color: white;
+}
+
+.anadir {
+    font-size: 14px;
+    background: none;
+    cursor: pointer;
+    border: none;
+    background-color: #678F54;
+    font-family: sans-serif;
+    color: white;
+    width: 80px;
+    height: 26px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.cardBtn {
+    width: 207px;
+    height: 26px;
+    background-color: #678F54;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 200;
+    cursor: pointer;
+}

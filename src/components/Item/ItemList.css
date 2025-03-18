@@ -1,0 +1,11 @@
+
+
+.ItemListContenedor {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    gap: 15px;
+}

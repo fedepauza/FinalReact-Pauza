@@ -1,0 +1,56 @@
+
+.navBarContainer {
+    top: 0;
+    display: flex;
+    width: 100%;
+    height: 75px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #94a664b5;
+    margin: 0 auto;
+    margin-top: 25px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+
+.Title {
+    font-size: 48px;
+    font-family: sans-serif;
+    color: #4C7150;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+
+.ulLinks {
+    display: flex;
+    width: 100%;
+    gap: 25px;
+    justify-content: center;
+
+}
+
+.links {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #F4F7EE;
+    text-decoration: underline;
+    list-style: none;
+    cursor: pointer;
+}
+
+.cartImg {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 65px;
+    cursor: pointer;
+    display: hidden;
+}
+
+.NavLink {
+    text-decoration: none;
+}
