@@ -9,15 +9,22 @@ export const CartProvider = ({ children }) => {
 
     console.log(cart)
 
-    const addItem = ( item, quantity ) => {
-
-        if (!isInCart ( item.id )) {
-            setCart(prev => [ ...prev, { ...item, quantity }])
+    const addItem = (item, quantity) => {
+        
+        if (!isInCart(item.id)) {
+            setCart(prev => {
+                const updatedCart = [...prev, { ...item, quantity }]
+                return updatedCart
+            })
         } else {
-            setCart ( ( prev ) => prev.map ( ( e ) =>
-            e.id === item.id ? { ...e, quantity: e.quantity + quantity } : e )
-            ) }  
+            setCart(prev => {
+                const updatedCart = prev.map(e =>
+                    e.id === item.id ? { ...e, quantity: e.quantity + quantity } : e)
+                return updatedCart;
+            })
         }
+    }
+    
     
 
     const removeItem = (itemID) => {

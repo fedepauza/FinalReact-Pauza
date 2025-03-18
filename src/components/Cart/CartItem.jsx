@@ -11,7 +11,6 @@ const Cart = ({item}) => {
 
         return (
             <div className='ticketContainer'>
-                <h2 className='ticketTitle'>Tu pedido</h2>
                     <div className='containerProducto'>
                         <div className='containerProdIq'>
                             <h3 className='productoCantidad'>{item.brand} x{item.quantity}</h3>

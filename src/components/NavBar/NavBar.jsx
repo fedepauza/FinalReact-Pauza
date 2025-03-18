@@ -23,10 +23,11 @@ const NavBar = () => {
 
                 </ul>
 
-            <Link to="/cart" className="cartWidget" style={{display: totalQuantity > 0 ? 'block' : 'hidden'}}>
+            <Link to="/cart" className="cartWidget">
             <img src="https://dsityreshop.com/public/frontend/images/cart.png" alt="cart" className='cartImg'/>
-            {totalQuantity}
-        </Link>
+            
+            </Link>
+            <h4  style={{display: totalQuantity > 0 ? 'block' : 'none'}} className='cartQuantity'>{totalQuantity}</h4>
         </div>
     )
 }

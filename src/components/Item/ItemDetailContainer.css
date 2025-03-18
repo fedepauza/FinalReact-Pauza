@@ -97,6 +97,21 @@
 }
 
 .anadirItem {
+    width: 200px;
+    font-size: 14px;
+    font-family: sans-serif;
+    background-color: #678F54;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.pay {
     width: 300px;
     font-size: 14px;
     font-family: sans-serif;
@@ -107,4 +122,5 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-decoration: none;
 }

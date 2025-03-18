@@ -1,11 +1,11 @@
 
 import { useEffect , useState , useContext } from 'react'
-import ItemContainer from './ItemContainer';
 import { useParams } from 'react-router-dom'
 import { db } from '../../Config/fireBase';
 import { doc, getDoc } from 'firebase/firestore';
 import { CartContext } from '../Context/CartContext'
 import ItemCount from './ItemCount'
+import { Link } from 'react-router-dom';
 
 
 
@@ -59,7 +59,7 @@ const ItemDetailContainer = () => {
                     </div>
                     <div className="containerBtnsItem">
                         {cantidad > 0 ? (
-                            <Link to="/cart" className="Option">
+                            <Link to="/cart" className="pay"> 
                                 Termina compra
                             </Link>
                         ) : (

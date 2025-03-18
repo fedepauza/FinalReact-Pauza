@@ -1,5 +1,6 @@
 
 .navBarContainer {
+    position: relative;
     top: 0;
     display: flex;
     width: 100%;
@@ -53,4 +54,21 @@
 
 .NavLink {
     text-decoration: none;
+}
+
+.cartWidget {
+    position: absolute;
+    right: 30px;
+    top: -10px;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+
+.cartQuantity {
+    position: absolute;
+    right: 95px;
+    top: 40px;
+    font-family: sans-serif;
+    color: white;
 }
