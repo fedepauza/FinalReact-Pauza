@@ -13,7 +13,7 @@ const Cart = ({item}) => {
             <div className='ticketContainer'>
                     <div className='containerProducto'>
                         <div className='containerProdIq'>
-                            <h3 className='productoCantidad'>{item.brand} x{item.quantity}</h3>
+                            <h3 className='productoCantidad'>{item.brand} x {item.quantity}</h3>
                             <p className='precioUnidad'>Precio x unidad: ${item.price}</p>
                             <button className='btnEliminar' onClick={()=> removeItem(item.id)}>Eliminar Producto</button>
                         </div>

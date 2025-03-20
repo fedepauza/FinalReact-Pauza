@@ -41,6 +41,7 @@ export const CartProvider = ({ children }) => {
     }
 
     const total = cart.reduce( (acc, e) => acc + e.price * e.quantity, 0)
+    
 
     const totalQuantity = cart.reduce( (acc, e) => acc + e.quantity, 0)
 
