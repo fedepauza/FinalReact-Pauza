@@ -8,7 +8,7 @@ import React from 'react'
                 <img src={img} alt="" className='cardImg'/>
                 <h4 className='cardTitle'>{brand}</h4>
                 <p className='productPrice'>${price}</p>
-                <Link to={`/item/${id}`} className='cardBtn'>Detalles</Link>
+                <Link to={`/item/${id}`} className='cardBtn'>Ver mas</Link>
             </div>
         )
         }
