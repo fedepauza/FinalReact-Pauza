@@ -1,0 +1,30 @@
+
+.containerFinCompra {
+    margin: 0 auto;
+    margin-top: 300px;
+    width: 50%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center ;
+}
+
+.containerFinCompra  p {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    color: rgb(37, 37, 37);
+}
+
+.containerFinCompra  strong {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    color: rgb(255, 0, 0);
+    margin-top: 10px;
+}
+
+.containerFinCompra p .buyerName {
+    color: rgb(37, 37, 37);
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}

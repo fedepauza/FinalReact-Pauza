@@ -1,0 +1,56 @@
+.checkoutForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 400px;
+    background-color: rgba(113, 133, 95, 0.374);
+    border-radius: 10px;
+    box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.353);
+    margin: 0 auto;
+    margin-top: 200px;
+    padding: 25px;
+    gap: 20px;
+}
+
+.checkoutForm label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-family: sans-serif;
+}
+
+.checkoutForm input {
+    width: 250px;
+    height: 30px;
+    margin-top: 5px;
+    font-family: sans-serif;
+    border: none;
+    padding: 10px;
+    padding-top: 12px;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.263)
+    
+}
+
+.checkoutForm input:focus {
+    box-shadow: 0 0 10px rgb(149, 255, 0) ;
+    border: 1px solid rgb(149, 255, 0);
+}
+
+.btnComprar {
+    width: 250px;
+    height: 25px;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.555);
+    text-align: center;
+    font-family: sans-serif;
+    text-decoration: none;
+    align-content: center;
+}
